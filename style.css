@@ -56,11 +56,14 @@ body {
   }
   
   h2 {
-    font-size: 3rem;
+    font-size: 4.5rem;
   }
   
   h3 {
     font-size: 1.5rem;
+  }
+  p{
+    font-size: 1.2rem;
   }
   
   /* separator bars */
@@ -129,20 +132,22 @@ body {
     margin: 1.5rem 0;
   }
   
+
   a.btn {
     display: inline-flex;
     align-items: center;
     background: var(--link);
     color: var(--background);
+    transition: 0.5s;  
     text-decoration: none;
     padding: 0 1rem;
-    height: 2.5rem;
-    border-radius: 1.25rem;
+    height: 4rem;
+    border-radius: 0.95rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
-  
+
   .recent-work {
     padding-block-end: 3rem;
   }
@@ -203,3 +208,5 @@ body {
     font-size: 1.5rem;
   }
   
+
+           
