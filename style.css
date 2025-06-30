@@ -151,6 +151,29 @@ body {
   .recent-work {
     padding-block-end: 3rem;
   }
+
+  .certificates {
+    padding: 2rem 0;
+  }
+
+  .cert-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .certificate {
+    width: 240px;
+    height: 180px;
+    border: 2px dashed var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border-radius: 0.5rem;
+  }
   
   @media (max-width: 1024px) {
     article {
