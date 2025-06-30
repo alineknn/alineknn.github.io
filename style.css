@@ -158,7 +158,6 @@ a.btn {
 .cert-list {
   display: flex;
   flex-wrap: nowrap;
-  /* don’t wrap onto new lines */
   justify-content: center;
   gap: 1.5rem;
   padding: 2rem 0;
@@ -169,7 +168,6 @@ a.btn {
   width: 150px;
   height: 150px;
   overflow: hidden;
-  border-radius: 0.5rem;
 }
 
 .certificate img {
